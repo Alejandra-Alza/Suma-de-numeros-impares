@@ -1,0 +1,26 @@
+package com.mycompany.algoritmo;
+
+
+public class NewClass {
+    
+  public static void main(String[] args)
+  {
+     
+     	long s = 0; //suma
+
+	for (int i = 0; i < 100000000; i++) {
+
+		if (i % 2 != 0) {
+                    
+                    s = s + i;
+
+		}
+		
+	}
+        
+        System.out.println("suma de numeros impares:" +s);
+  
+  }
+    
+}
+
